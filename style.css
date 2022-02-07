@@ -66,6 +66,13 @@ body {
 
 .playlist-item {
   margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+
+.playlist-track {
+  flex-grow: 1;
 }
 
 .playlist-title {
@@ -80,7 +87,7 @@ body {
   font-size: .75rem;
 }
 
-.playlist-title::before {
+.playlist-item::before {
   content: "";
   background-color: var(--title-color);
   display: block;
