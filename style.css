@@ -158,8 +158,25 @@ body {
 }
 
 
-@media (min-width: 40rem) {
+@media (min-width: 45rem) {
   html {
     font-size: 20px;
+    background: url(img/cover.png);
   }
+
+  .app {
+    width: 60vw;
+  }
+
+  .playlist-item {
+    border-bottom: 1px #eee solid;
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .playlist-item:last-child {
+    border-bottom: 0
+  }
+
+
 }
