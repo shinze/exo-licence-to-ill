@@ -56,6 +56,12 @@ body {
   height: auto;
 }
 
+.header-album-cover {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem
+}
+
 /* Playlist */
 
 .playlist {
@@ -118,3 +124,4 @@ body {
   transform: rotate(180deg);
   background-color: var(--main-color-dark);
 }
+
