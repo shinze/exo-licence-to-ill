@@ -108,13 +108,6 @@ body {
 }
 
 .random:hover {
+  transform: rotate(180deg);
   background-color: var(--main-color-dark);
-}
-
-.random img {
-  transition: all .3s;
-}
-
-.random:hover img {
-  transform: rotate(180deg) scale(1.2)
 }
