@@ -54,3 +54,18 @@ body {
   height: auto;
 }
 
+/* Playlist */
+
+.playlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.playlist-title {
+  margin: 0;
+}
+
+.playlist-time {
+  margin: 0;
+}
