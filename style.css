@@ -8,3 +8,24 @@
   --time-color: #AA9379;
 }
 
+html {
+  background-color: var(--doc-bg-color)
+}
+
+body {
+  font-family: Archivo;
+  color: var(--main-color);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  background-color: var(--app-bg-color);
+  padding: 2rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05), 0px 4px 70px rgba(0, 0, 0, 0.13);
+  min-width: 22rem;
+  max-width: 40rem;
+}
