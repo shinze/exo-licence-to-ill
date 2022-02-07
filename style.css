@@ -77,3 +77,15 @@ body {
   color: var(--time-color);
   font-size: .75rem;
 }
+
+.playlist-title::before {
+  content: "";
+  background-color: var(--title-color);
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-image: url(img/icons/music-note.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
