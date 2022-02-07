@@ -29,3 +29,10 @@ body {
   min-width: 22rem;
   max-width: 40rem;
 }
+
+
+.header-cover {
+  width: 8rem;
+  height: auto;
+}
+
