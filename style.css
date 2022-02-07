@@ -18,7 +18,8 @@ body {
   font-family: Archivo;
   color: var(--main-color);
   display: grid;
-  place-items: center;
+  align-content: center;
+  justify-content: center;
   height: 100vh;
   margin: 0;
 }
@@ -28,8 +29,9 @@ body {
   padding: 2rem;
   border-radius: 0.625rem;
   box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05), 0px 4px 70px rgba(0, 0, 0, 0.13);
-  min-width: 22rem;
-  max-width: 40rem;
+  max-width: 30rem;
+  max-height: 100vh;
+  overflow: auto;
 }
 
 /* App header */
@@ -104,6 +106,7 @@ body {
   background-image: url(img/icons/music-note.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  flex-shrink: 0;
 }
 
 /* Boutons */
@@ -141,4 +144,12 @@ body {
 
 .more:hover, .add-playlist:hover {
   background-color: #eee;
+}
+
+
+@media (min-width: 30rem) {
+  html {
+    font-size: 20px;
+  }
+  
 }
