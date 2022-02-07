@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap');
+
+:root {
+  --main-color : #604E3A;
+  --doc-bg-color : #F4EBE1;
+  --title-color : #D49A7A;
+  --app-bg-color: #FFFFFF;
+  --time-color: #AA9379;
+}
+
