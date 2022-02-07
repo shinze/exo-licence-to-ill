@@ -2,6 +2,7 @@
 
 :root {
   --main-color : #604E3A;
+  --main-color-dark : #291C0F;
   --doc-bg-color : #F4EBE1;
   --title-color : #D49A7A;
   --app-bg-color: #FFFFFF;
@@ -9,7 +10,8 @@
 }
 
 html {
-  background-color: var(--doc-bg-color)
+  background-color: var(--doc-bg-color);
+  height: 100vh;
 }
 
 body {
@@ -88,4 +90,31 @@ body {
   background-image: url(img/icons/music-note.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+/* Boutons */
+.random {
+  background-color: var(--main-color);
+  border: 0;
+  border-radius: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 0.75rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.random:hover {
+  background-color: var(--main-color-dark);
+}
+
+.random img {
+  transition: all .3s;
+}
+
+.random:hover img {
+  transform: rotate(180deg) scale(1.2)
 }
