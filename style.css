@@ -79,6 +79,17 @@ body {
   align-items: center;
 }
 
+.playlist-item--edit {
+  flex-flow: row-reverse;
+}
+
+.playlist-item--current {
+  flex-flow: row-reverse;
+}
+
+.playlist-item--current .playlist-track {
+  order: 1
+}
 
 .playlist-track {
   flex-grow: 1;
@@ -147,9 +158,8 @@ body {
 }
 
 
-@media (min-width: 30rem) {
+@media (min-width: 40rem) {
   html {
     font-size: 20px;
   }
-  
 }
